@@ -1,48 +1,46 @@
-# practice-lesson03
+### Typography
 
-Comp
+- headings
+- paragraphs
+- small text
 
-## brand colors
+### Containers
 
-- Primary Color
-- Primary Dark?
-- Gray
+- fluid container
+- center container
 
-## typography
+### Links
 
-- h1,
-- h2,
-- text
-- text-sm
+- primary link
+- secondary link
 
-## container
+### Lists
 
-- fluid
-- center
+- unordered lists (without bullets)
+- inline lists
+- reverse ordered lists
 
-## button
+### **nav**
 
-- Primary Button
-- Secondary Button
+- navigation with brandname and nav items inline
 
-## nav
+### **header**
 
-- Brand
-- Link
+- header image
+- header heading
 
-## header
+## **section**
 
-- image
-- heading
+- normal section
+    - heading center
+    - padding top and bottom
+- off white section
+    - background change
 
-## section
+## **footer**
 
-## Lists
-
-- Ordered List
-- Unordered List
-
-## footer
-
-- heading
-- Link
+```
+- big text
+- inline lists
+- all centered
+```
