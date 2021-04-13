@@ -6,6 +6,7 @@
     --primary: #7C3AED;
     --gray: #F3F4F6;
     --dark-gray:#6B7280;
+    --secondary: #b91c1c;
 }
 
 body {
@@ -49,11 +50,24 @@ hr {
 .secondary-link {
     text-decoration: none;
     color: var(--primary);
+    
     border: 1px solid var(--primary);
     width: max-content;
     min-width: 140px;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.primary-link-outline {
+  color: var(--dark-gray);
+  border: 1px solid var(--primary);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.secondary-link-outline {
+  color: var(--dark-gray);
+  border: 1px solid var(--secondary);
+  border-radius: 0.5rem;
 }
 
 /** nav **/
@@ -113,6 +127,7 @@ hr {
 
 .ow {
     background-color: var(--gray);
+    
 }
 
 
