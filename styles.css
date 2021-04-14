@@ -102,6 +102,78 @@ hr {
 .navigation .active {
     font-weight: bold;
 }
+.navi {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    position: fixed;
+    top: -5px;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    transition: 0.5s;
+}
+
+.navi .brand {
+    font-weight: bold;
+    
+}
+
+.navi ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navi li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.navi a {
+    text-decoration: none;
+    color: white
+}
+
+.navi .active {
+    font-weight: bold;
+}
+.nav {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    position: fixed;
+    top: -5px;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    transition: 0.5s;
+}
+
+.nav .brand {
+    font-weight: bold;
+    
+}
+
+.nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white
+}
+
+.nav .active {
+    font-weight: bold;
+}
 
 /** header **/
 
