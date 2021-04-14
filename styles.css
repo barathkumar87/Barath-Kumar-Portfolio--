@@ -74,9 +74,15 @@ hr {
 /** nav **/
 .navigation {
     background-color: var(--primary);
-    padding: 1rem 0rem;
+    padding: 1.4rem 0rem;
     color: white;
     border-bottom-left-radius: 1rem;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    transition: 0.5s;
 }
 
 .navigation .brand {
