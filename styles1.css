@@ -5,7 +5,7 @@ body {
   background-color: #191919;
   font-family: "Open Sans", sans-serif;
   height:100%;
-  position: relative;
+  margin-top: 5px;
 }
 div.wrap {height:100%; overflow:hidden;}
 .text {
@@ -161,6 +161,7 @@ border-radius: 50px;
   -o-animation: expand .7s ease-in forwards 2.7s;
   animation: expand .7s ease-in forwards 2.7s;
 }
+
 .splash_minimize {
   position: absolute;
   margin: auto;
