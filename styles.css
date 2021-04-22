@@ -215,6 +215,12 @@ hr {
     display: inline;
     padding: 0rem 0.5rem;
 }
+.btn-primary {
+    color: #fff;
+    background-color:#7C3AED;
+    border-color: #7C3AED;
+}
+
 
 
 /** footer **/
